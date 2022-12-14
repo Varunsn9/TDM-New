@@ -21,22 +21,23 @@ public class Transformers_Test extends Base_Class{
 	public void Transformers() throws InterruptedException {
 
 		
-		//ChromeOptions opt=new ChromeOptions();
-		//opt.addArguments("--incognito");
-		//driver=new ChromeDriver();
-		String operaBinary="C:\\Users\\VARUN SN\\AppData\\Local\\Programs\\Opera\\launcher.exe";
-		OperaOptions op=new OperaOptions();
-		op.setBinary(operaBinary);
-		op.addArguments("--incognito");
-		 op.addArguments("--no-sandbox");
-	        op.addArguments("--disable-dev-shm-usage");
-	        op.addArguments("disable-infobars"); // disabling infobars
-	        op.addArguments("--disable-extensions"); // disabling extensions
-	        op.addArguments("--disable-gpu");
-		driver=new OperaDriver(op);
+		ChromeOptions opt=new ChromeOptions();
+		opt.addArguments("--incognito");
+		driver=new ChromeDriver(opt);
+		
+//		
+//		OperaOptions op=new OperaOptions();
+//		op.addArguments("--incognito");
+//		driver=new OperaDriver(op);
 		driver.manage().window().maximize();
 		try{
 			driver.get("https://www.youtube.com/watch?v=9elBYEpnPQw");
+			try {
+				driver.findElement(By.xpath("//button[@aria-label='Play']")).click();
+			}catch(Exception e) {
+				driver.navigate().refresh();
+				driver.findElement(By.xpath("//button[@aria-label='Play']")).click();
+			}
 		}catch(Exception e){
 			driver.navigate().refresh();
 			Thread.sleep(360000);
@@ -51,7 +52,7 @@ public class Transformers_Test extends Base_Class{
 				i=0;
 			}
 			try {
-				driver.quit();
+				//driver.quit();
 			}catch(Exception e) {
 				
 			}

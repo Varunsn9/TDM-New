@@ -48,6 +48,7 @@ public class Transformers_Test extends Base_Class{
 				
 			}
 		}	
+		System.out.println("built");
 	}
 }
 

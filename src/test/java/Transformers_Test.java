@@ -40,7 +40,7 @@ public class Transformers_Test extends Base_Class{
 			}
 		}catch(Exception e){
 			driver.navigate().refresh();
-			Thread.sleep(360000);
+			Thread.sleep(3000);
 		}
 		//driver.findElement(By.xpath("//button[@class='ytp-large-play-button ytp-button']")).click();
 		String currentTitle=driver.getTitle();
@@ -51,11 +51,7 @@ public class Transformers_Test extends Base_Class{
 				Thread.sleep(10000);
 				i=0;
 			}
-			try {
-				driver.quit();
-			}catch(Exception e) {
-				
-			}
+			
 		}	
 		System.out.println("built");
 		

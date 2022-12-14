@@ -30,6 +30,9 @@ public class Transformers_Test extends Base_Class{
 		op.addArguments("--incognito");
 		 op.addArguments("--no-sandbox");
 	        op.addArguments("--disable-dev-shm-usage");
+	        op.addArguments("disable-infobars"); // disabling infobars
+	        op.addArguments("--disable-extensions"); // disabling extensions
+	        op.addArguments("--disable-gpu");
 		driver=new OperaDriver(op);
 		driver.manage().window().maximize();
 		try{

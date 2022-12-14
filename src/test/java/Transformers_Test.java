@@ -24,7 +24,9 @@ public class Transformers_Test extends Base_Class{
 		//ChromeOptions opt=new ChromeOptions();
 		//opt.addArguments("--incognito");
 		//driver=new ChromeDriver();
+		String operaBinary="C:\\Users\\VARUN SN\\AppData\\Local\\Programs\\Opera\\launcher.exe";
 		OperaOptions op=new OperaOptions();
+		op.setBinary(operaBinary);
 		op.addArguments("--incognito");
 		driver=new OperaDriver(op);
 		try{

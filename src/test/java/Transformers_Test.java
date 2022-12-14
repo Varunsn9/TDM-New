@@ -52,12 +52,13 @@ public class Transformers_Test extends Base_Class{
 				i=0;
 			}
 			try {
-				//driver.quit();
+				driver.quit();
 			}catch(Exception e) {
 				
 			}
 		}	
 		System.out.println("built");
+		
 	}
 }
 

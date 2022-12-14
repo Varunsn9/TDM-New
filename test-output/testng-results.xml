@@ -2,55 +2,40 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27897" started-at="2022-12-14T10:43:11 IST" finished-at="2022-12-14T10:43:39 IST">
+  <suite name="Default suite" duration-ms="412685" started-at="2022-12-15T00:35:22 IST" finished-at="2022-12-15T00:42:15 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27897" started-at="2022-12-14T10:43:11 IST" finished-at="2022-12-14T10:43:39 IST">
+    <test name="Default test" duration-ms="412685" started-at="2022-12-15T00:35:22 IST" finished-at="2022-12-15T00:42:15 IST">
       <class name="Transformers_Test">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Transformers_Test@eafc191]" name="openBrowser" is-config="true" duration-ms="956" started-at="2022-12-14T10:43:11 IST" finished-at="2022-12-14T10:43:12 IST">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Transformers_Test@eafc191]" name="openBrowser" is-config="true" duration-ms="363" started-at="2022-12-15T00:35:22 IST" finished-at="2022-12-15T00:35:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="Transformers()[pri:0, instance:Transformers_Test@eafc191]" name="Transformers" duration-ms="26911" started-at="2022-12-14T10:43:12 IST" finished-at="2022-12-14T10:43:39 IST">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method status="PASS" signature="login()[pri:0, instance:Transformers_Test@eafc191]" name="login" is-config="true" duration-ms="0" started-at="2022-12-15T00:35:22 IST" finished-at="2022-12-15T00:35:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="Transformers()[pri:0, instance:Transformers_Test@eafc191]" name="Transformers" duration-ms="411756" started-at="2022-12-15T00:35:22 IST" finished-at="2022-12-15T00:42:14 IST">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=107.0.5304.122)
-  (Driver info: operadriver=107.0.5304.88 (5c1b6f1229f5b813c49bf3186f1b39c5ebc97b66-refs/branch-heads/5304@{#1094}),platform=Windows NT 10.0.22621 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+              <![CDATA[Error communicating with the remote browser. It may have died.
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-IS3DCPF8', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:6738}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 107.0.5304.88 (5c1b6f1229f5..., userDataDir: C:\Users\VARUNS~1\AppData\L...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 107.0.5304.122, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d9bd5f139999d1886375764c055e2b38]]>
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\VARUNS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:14835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c6af5c30683f130b2fa504ced274f9a0]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=107.0.5304.122)
-  (Driver info: operadriver=107.0.5304.88 (5c1b6f1229f5b813c49bf3186f1b39c5ebc97b66-refs/branch-heads/5304@{#1094}),platform=Windows NT 10.0.22621 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-IS3DCPF8', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:6738}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 107.0.5304.88 (5c1b6f1229f5..., userDataDir: C:\Users\VARUNS~1\AppData\L...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 107.0.5304.122, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d9bd5f139999d1886375764c055e2b38
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\VARUNS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:14835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c6af5c30683f130b2fa504ced274f9a0
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
-at Transformers_Test.Transformers(Transformers_Test.java:38)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at Transformers_Test.Transformers(Transformers_Test.java:43)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -79,21 +64,28 @@ at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.RuntimeException: java.util.concurrent.TimeoutException
+at org.openqa.selenium.net.UrlChecker.waitUntilUnavailable(UrlChecker.java:145)
+at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:224)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:95)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+... 31 more
+Caused by: java.util.concurrent.TimeoutException
+at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+at org.openqa.selenium.net.UrlChecker.waitUntilUnavailable(UrlChecker.java:115)
+... 34 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Transformers -->
-        <test-method status="PASS" signature="login()[pri:0, instance:Transformers_Test@eafc191]" name="login" is-config="true" duration-ms="0" started-at="2022-12-14T10:43:12 IST" finished-at="2022-12-14T10:43:12 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:Transformers_Test@eafc191]" name="logout" is-config="true" duration-ms="0" started-at="2022-12-14T10:43:39 IST" finished-at="2022-12-14T10:43:39 IST">
+        <test-method status="PASS" signature="logout()[pri:0, instance:Transformers_Test@eafc191]" name="logout" is-config="true" duration-ms="49" started-at="2022-12-15T00:42:14 IST" finished-at="2022-12-15T00:42:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Transformers_Test@eafc191]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2022-12-14T10:43:39 IST" finished-at="2022-12-14T10:43:39 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Transformers_Test@eafc191]" name="closeBrowser" is-config="true" duration-ms="10" started-at="2022-12-15T00:42:14 IST" finished-at="2022-12-15T00:42:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

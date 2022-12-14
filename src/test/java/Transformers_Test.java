@@ -28,7 +28,10 @@ public class Transformers_Test extends Base_Class{
 		OperaOptions op=new OperaOptions();
 		op.setBinary(operaBinary);
 		op.addArguments("--incognito");
+		 op.addArguments("--no-sandbox");
+	        op.addArguments("--disable-dev-shm-usage");
 		driver=new OperaDriver(op);
+		driver.manage().window().maximize();
 		try{
 			driver.get("https://www.youtube.com/watch?v=9elBYEpnPQw");
 		}catch(Exception e){

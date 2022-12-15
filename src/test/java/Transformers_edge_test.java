@@ -1,17 +1,19 @@
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.Test;
 
-public class Transformers_FireFox_Test extends Base_Class {
-
+public class Transformers_edge_test extends Base_Class {
+	
 	@Test
 	public void test() {
-		FirefoxOptions op=new FirefoxOptions();
-		op.addArguments("--incognito");
-		driver=new FirefoxDriver(op);
+		 EdgeOptions op=new EdgeOptions();
+         op.setCapability("InPrivate", true);
+		driver = new EdgeDriver(op);
 		driver.get("https://www.youtube.com/watch?v=9elBYEpnPQw");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//button[@aria-label='Play']")).click();
@@ -24,4 +26,4 @@ public class Transformers_FireFox_Test extends Base_Class {
 		}
 	System.out.println("build completed");
 	}
-	}
+}

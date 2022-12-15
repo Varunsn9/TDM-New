@@ -24,8 +24,7 @@ public class Base_Class {
 	public void openBrowser(){
 		//manager.operadriver().setup();
 		manager.chromedriver().setup();
-		//manager.edgedriver().setup();
-		manager.firefoxdriver().setup();
+		manager.edgedriver().setup();
 	}
 	@BeforeMethod
 	public void login() {

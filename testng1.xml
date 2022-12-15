@@ -8,17 +8,17 @@
   </test> <!-- Test -->
   <test thread-count="5" name="Test1" parallel="tests">
     <classes>
-      <class name="Transformers_Test"/>
+      <class name="Transformers_FireFox_Test"/>
     </classes>
   </test> <!-- Test -->
   <test thread-count="5" name="Test2" parallel="tests">
     <classes>
-      <class name="Transformers_Test"/>
+      <class name="Transformers_FireFox_Test"/>
     </classes>
   </test> <!-- Test -->
   <test thread-count="5" name="Test3" parallel="tests">
     <classes>
-      <class name="Transformers_Test"/>
+      <class name="Transformers_FireFox_Test"/>
     </classes>
   </test> <!-- Test -->
   <test thread-count="5" name="Test4" parallel="tests">

@@ -21,12 +21,12 @@ public class Transformers_Test extends Base_Class{
 	public void Transformers() throws InterruptedException {
 
 		
-		ChromeOptions opt=new ChromeOptions();
-		opt.addArguments("--incognito");
-		driver=new ChromeDriver(opt);	
-//		OperaOptions op=new OperaOptions();
-//		op.addArguments("--incognito");
-//		driver=new OperaDriver(op);
+//		ChromeOptions opt=new ChromeOptions();
+//		opt.addArguments("--incognito");
+//		driver=new ChromeDriver(opt);	
+		OperaOptions op=new OperaOptions();
+		op.addArguments("--incognito");
+		driver=new OperaDriver(op);
 		driver.manage().window().maximize();
 		try{
 			driver.get("https://www.youtube.com/watch?v=9elBYEpnPQw");

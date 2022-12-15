@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="tests">
   <test thread-count="5" name="Test0" parallel="tests">
     <classes>
-      <class name="Transformers_Test"/>
+      <class name="Transformers_FireFox_Test"/>
     </classes>
   </test> <!-- Test -->
   <test thread-count="5" name="Test1" parallel="tests">
@@ -23,7 +23,7 @@
   </test> <!-- Test -->
   <test thread-count="5" name="Test4" parallel="tests">
     <classes>
-      <class name="Transformers_Test"/>
+      <class name="Transformers_FireFox_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

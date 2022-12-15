@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Transformers_Test">
+      <class name="Transformers_FireFox_Test">
         <methods>
           <include name="closeBrowser"/>
+          <include name="test"/>
           <include name="openBrowser"/>
-          <include name="Transformers"/>
           <include name="login"/>
           <include name="logout"/>
         </methods>
-      </class> <!-- Transformers_Test -->
+      </class> <!-- Transformers_FireFox_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

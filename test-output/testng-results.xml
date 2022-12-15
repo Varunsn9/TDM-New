@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="216082" started-at="2022-12-15T22:24:49 IST" finished-at="2022-12-15T22:28:25 IST">
+  <suite name="Default suite" duration-ms="179855" started-at="2022-12-15T22:58:29 IST" finished-at="2022-12-15T23:01:29 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="216082" started-at="2022-12-15T22:24:49 IST" finished-at="2022-12-15T22:28:25 IST">
-      <class name="Transformers_FireFox_Test">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Transformers_FireFox_Test@eafc191]" name="openBrowser" is-config="true" duration-ms="2294" started-at="2022-12-15T22:24:49 IST" finished-at="2022-12-15T22:24:52 IST">
+    <test name="Default test" duration-ms="179855" started-at="2022-12-15T22:58:29 IST" finished-at="2022-12-15T23:01:29 IST">
+      <class name="Transformers_edge_test">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Transformers_edge_test@eafc191]" name="openBrowser" is-config="true" duration-ms="1428" started-at="2022-12-15T22:58:29 IST" finished-at="2022-12-15T22:58:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="test()[pri:0, instance:Transformers_FireFox_Test@eafc191]" name="test" duration-ms="213572" started-at="2022-12-15T22:24:52 IST" finished-at="2022-12-15T22:28:25 IST">
+        <test-method status="PASS" signature="test()[pri:0, instance:Transformers_edge_test@eafc191]" name="test" duration-ms="178405" started-at="2022-12-15T22:58:30 IST" finished-at="2022-12-15T23:01:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="login()[pri:0, instance:Transformers_FireFox_Test@eafc191]" name="login" is-config="true" duration-ms="0" started-at="2022-12-15T22:24:52 IST" finished-at="2022-12-15T22:24:52 IST">
+        <test-method status="PASS" signature="login()[pri:0, instance:Transformers_edge_test@eafc191]" name="login" is-config="true" duration-ms="0" started-at="2022-12-15T22:58:30 IST" finished-at="2022-12-15T22:58:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:Transformers_FireFox_Test@eafc191]" name="logout" is-config="true" duration-ms="21" started-at="2022-12-15T22:28:25 IST" finished-at="2022-12-15T22:28:25 IST">
+        <test-method status="PASS" signature="logout()[pri:0, instance:Transformers_edge_test@eafc191]" name="logout" is-config="true" duration-ms="0" started-at="2022-12-15T23:01:29 IST" finished-at="2022-12-15T23:01:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Transformers_FireFox_Test@eafc191]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2022-12-15T22:28:25 IST" finished-at="2022-12-15T22:28:25 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Transformers_edge_test@eafc191]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2022-12-15T23:01:29 IST" finished-at="2022-12-15T23:01:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- Transformers_FireFox_Test -->
+      </class> <!-- Transformers_edge_test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

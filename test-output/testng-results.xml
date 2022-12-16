@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="179855" started-at="2022-12-15T22:58:29 IST" finished-at="2022-12-15T23:01:29 IST">
+  <suite name="Default suite" duration-ms="77702" started-at="2022-12-16T10:34:29 IST" finished-at="2022-12-16T10:35:46 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="179855" started-at="2022-12-15T22:58:29 IST" finished-at="2022-12-15T23:01:29 IST">
-      <class name="Transformers_edge_test">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Transformers_edge_test@eafc191]" name="openBrowser" is-config="true" duration-ms="1428" started-at="2022-12-15T22:58:29 IST" finished-at="2022-12-15T22:58:30 IST">
+    <test name="Default test" duration-ms="77702" started-at="2022-12-16T10:34:29 IST" finished-at="2022-12-16T10:35:46 IST">
+      <class name="Scream_Test">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Scream_Test@eafc191]" name="openBrowser" is-config="true" duration-ms="432" started-at="2022-12-16T10:34:29 IST" finished-at="2022-12-16T10:34:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="test()[pri:0, instance:Transformers_edge_test@eafc191]" name="test" duration-ms="178405" started-at="2022-12-15T22:58:30 IST" finished-at="2022-12-15T23:01:29 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="login()[pri:0, instance:Transformers_edge_test@eafc191]" name="login" is-config="true" duration-ms="0" started-at="2022-12-15T22:58:30 IST" finished-at="2022-12-15T22:58:30 IST">
+        <test-method status="PASS" signature="login()[pri:0, instance:Scream_Test@eafc191]" name="login" is-config="true" duration-ms="0" started-at="2022-12-16T10:34:29 IST" finished-at="2022-12-16T10:34:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:Transformers_edge_test@eafc191]" name="logout" is-config="true" duration-ms="0" started-at="2022-12-15T23:01:29 IST" finished-at="2022-12-15T23:01:29 IST">
+        <test-method status="PASS" signature="Transformers()[pri:0, instance:Scream_Test@eafc191]" name="Transformers" duration-ms="77234" started-at="2022-12-16T10:34:29 IST" finished-at="2022-12-16T10:35:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transformers -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:Scream_Test@eafc191]" name="logout" is-config="true" duration-ms="0" started-at="2022-12-16T10:35:46 IST" finished-at="2022-12-16T10:35:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Transformers_edge_test@eafc191]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2022-12-15T23:01:29 IST" finished-at="2022-12-15T23:01:29 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Scream_Test@eafc191]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2022-12-16T10:35:46 IST" finished-at="2022-12-16T10:35:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- Transformers_edge_test -->
+      </class> <!-- Scream_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

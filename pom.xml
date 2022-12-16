@@ -52,7 +52,7 @@
   <configuration>
   <suiteXmlFiles>
   <suiteXmlFile>Scream6.xml</suiteXmlFile>
-  <suiteXmlFile>testng.xml</suiteXmlFile>
+  <suiteXmlFile>testng1.xml</suiteXmlFile>
   </suiteXmlFiles>
   </configuration>
   </plugin>

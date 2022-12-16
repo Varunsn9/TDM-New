@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Transformers_edge_test">
+      <class name="Scream_Test">
         <methods>
           <include name="closeBrowser"/>
-          <include name="test"/>
           <include name="openBrowser"/>
+          <include name="Transformers"/>
           <include name="login"/>
           <include name="logout"/>
         </methods>
-      </class> <!-- Transformers_edge_test -->
+      </class> <!-- Scream_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
